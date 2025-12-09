@@ -841,7 +841,7 @@
                     <!-- Simplified email capture inline -->
                     <form id="inline-checklist-form" action="https://api.web3forms.com/submit" method="POST" class="max-w-2xl mx-auto mb-6">
                         <!-- Web3Forms Configuration -->
-                        <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+                        <input type="hidden" name="access_key" value="a0900edc-189f-4e50-ad6c-4520f43fb0f7">
                         <input type="hidden" name="subject" value="AI Security Checklist Request - mrcampbell.org">
                         <input type="hidden" name="from_name" value="mrcampbell.org Checklist Form">
                         <input type="hidden" name="request_type" value="checklist_download">
@@ -972,7 +972,7 @@
 
                     <form id="contact-form" action="https://api.web3forms.com/submit" method="POST" class="space-y-4">
                         <!-- Web3Forms Configuration -->
-                        <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+                        <input type="hidden" name="access_key" value="a0900edc-189f-4e50-ad6c-4520f43fb0f7">
                         <input type="hidden" name="subject" value="New Consultation Request - mrcampbell.org">
                         <input type="hidden" name="from_name" value="mrcampbell.org Contact Form">
                         <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
@@ -1090,10 +1090,9 @@
                 await loadCalendly();
 
                 // Open Calendly popup
-                // Replace YOUR_CALENDLY_URL with actual Calendly link (e.g., 'https://calendly.com/david-mrcampbell/30min')
                 if (window.Calendly) {
                     window.Calendly.initPopupWidget({
-                        url: 'https://calendly.com/YOUR_CALENDLY_USERNAME/30min'
+                        url: 'https://calendly.com/mrdavidcampbell/30min'
                     });
                 }
 
